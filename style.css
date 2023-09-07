@@ -1,0 +1,60 @@
+:root {
+    --text: #e6ecef;
+    --background: #080b0d;
+    --primary: #9ab1c1;
+    --secondary: #151d23;
+    --accent: #6488a0;
+}
+
+/* Main page */
+
+h1 {
+    color: var(--text);
+}
+
+p {
+    color: var(--text);
+}
+
+body {
+    background-color: var(--background);
+}
+
+
+
+
+/* Hacked Text Effect */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hackedText {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(2rem, 7vw, 7rem);
+    color: var(--text);
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    transition: 0.2s;
+}
+
+#hackedText:hover {
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+
+
+/* SVG Images */
+#images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#svg5 {
+    margin: -7px;
+    margin-top: -5%;
+}
