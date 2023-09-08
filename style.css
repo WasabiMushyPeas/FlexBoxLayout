@@ -54,7 +54,96 @@ body {
     justify-content: center;
 }
 
-#svg5 {
+#Layer1 {
     margin: -7px;
     margin-top: -5%;
+    background-image: linear-gradient(var(--background), #9ab1c150, var(--background));
+    animation: pulse 10s infinite;
+}
+
+/* Pulsing Effect */
+@keyframes pulse {
+    0% {
+        background-image: linear-gradient(var(--background), #9ab1c150, var(--background));
+    }
+
+    5% {
+        background-image: linear-gradient(var(--background), #9ab1c145, var(--background));
+    }
+
+    10% {
+        background-image: linear-gradient(var(--background), #9ab1c140, var(--background));
+    }
+
+    15% {
+        background-image: linear-gradient(var(--background), #9ab1c135, var(--background));
+    }
+
+    20% {
+        background-image: linear-gradient(var(--background), #9ab1c130, var(--background));
+    }
+
+    25% {
+        background-image: linear-gradient(var(--background), #9ab1c135, var(--background));
+    }
+
+    30% {
+        background-image: linear-gradient(var(--background), #9ab1c120, var(--background));
+    }
+
+    35% {
+        background-image: linear-gradient(var(--background), #9ab1c115, var(--background));
+    }
+
+    40% {
+        background-image: linear-gradient(var(--background), #9ab1c110, var(--background));
+    }
+
+    45% {
+        background-image: linear-gradient(var(--background), #9ab1c105, var(--background));
+    }
+
+    50% {
+        background-image: linear-gradient(var(--background), #9ab1c100, var(--background));
+    }
+
+    55% {
+        background-image: linear-gradient(var(--background), #9ab1c105, var(--background));
+    }
+
+    60% {
+        background-image: linear-gradient(var(--background), #9ab1c110, var(--background));
+    }
+
+    65% {
+        background-image: linear-gradient(var(--background), #9ab1c115, var(--background));
+    }
+
+    70% {
+        background-image: linear-gradient(var(--background), #9ab1c120, var(--background));
+    }
+
+    75% {
+        background-image: linear-gradient(var(--background), #9ab1c125, var(--background));
+    }
+
+    80% {
+        background-image: linear-gradient(var(--background), #9ab1c130, var(--background));
+    }
+
+    85% {
+        background-image: linear-gradient(var(--background), #9ab1c135, var(--background));
+    }
+
+    90% {
+        background-image: linear-gradient(var(--background), #9ab1c140, var(--background));
+    }
+
+    95% {
+        background-image: linear-gradient(var(--background), #9ab1c145, var(--background));
+    }
+
+    100% {
+        background-image: linear-gradient(var(--background), #9ab1c150, var(--background));
+    }
 }
