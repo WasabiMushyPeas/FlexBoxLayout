@@ -31,3 +31,29 @@ document.querySelector("h1").onmouseover = event => {
     }, 30);
 
 }
+
+
+// Pulse Effect
+image = document.getElementById("Layer1");
+setInterval(pulse, 100);
+i = 0;
+reverse = false;
+
+function pulse(){
+    image.style["background-image"] = "linear-gradient(#080b0d, rgba(154, 177, 193, " + i + "), #080b0d)";
+
+    if(i >= 0.2){
+        reverse = true;
+    }
+    if(i <= 0){
+        reverse = false;
+    }
+
+    if(reverse){
+        i -= 0.005;
+    }else{
+        i += 0.005;
+    }
+
+    console.log(i);
+}
