@@ -19,7 +19,7 @@ document.querySelector("h1").onmouseover = event => {
             }
 
             if (onHeader) {
-                return letters[Math.floor(Math.random() * 26)]
+                return letters[Math.floor(Math.random() * letters.length)];
             }
 
 
@@ -28,7 +28,7 @@ document.querySelector("h1").onmouseover = event => {
             clearInterval(interval);
         }
         iteration += 1 / 3;
-    }, 30);
+    }, 35);
 
 }
 
@@ -55,5 +55,4 @@ function pulse() {
         i += 0.005;
     }
 
-    console.log(i);
 }
