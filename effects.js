@@ -35,23 +35,23 @@ document.querySelector("h1").onmouseover = event => {
 
 // Pulse Effect
 image = document.getElementById("Layer1");
-setInterval(pulse, 100);
+setInterval(pulse, 50);
 i = 0;
 reverse = false;
 
-function pulse(){
+function pulse() {
     image.style["background-image"] = "linear-gradient(#080b0d, rgba(154, 177, 193, " + i + "), #080b0d)";
 
-    if(i >= 0.2){
+    if (i >= 0.3) {
         reverse = true;
     }
-    if(i <= 0){
+    if (i <= 0) {
         reverse = false;
     }
 
-    if(reverse){
+    if (reverse) {
         i -= 0.005;
-    }else{
+    } else {
         i += 0.005;
     }
 
